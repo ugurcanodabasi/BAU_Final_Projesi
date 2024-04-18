@@ -9,7 +9,7 @@ model = joblib.load("BAU_Miuul_final_model.pkl")
 
 
 def display_about():
-    st.title('ahmet')
+    st.title('Hakkımızda')
     st.write('''
     Bu uygulama, kullanıcıların sağlık verileri üzerinden obezite durumunu tahmin etmek amacıyla geliştirilmiştir.
     Uygulama, çeşitli beslenme ve yaşam tarzı verilerini analiz ederek obezite riskini değerlendirmeye yardımcı olur.
@@ -173,7 +173,7 @@ def main():
         display_about()
     elif page == 'Anasayfa':
         home_page()
-    elif page == 'Dinamik Grafikler':
+    elif page == 'Veri ve Modelimiz Hakkında':
         dynamic_graphs()
     elif page == 'Obezite Tahmini':
         predict_obesity()
