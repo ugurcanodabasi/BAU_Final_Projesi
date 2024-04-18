@@ -5,7 +5,7 @@ import joblib
 import plotly.express as px
 
 # Modeli joblib ile yükle
-model = joblib.load("/Users/ugurcanodabasi/Desktop/PycharmProjects/BAU_Miuul_Final_Project/BAU_Miull_final_model.pkl")
+model = joblib.load("BAU_Miuul_final_model.pkl")
 
 
 def display_about():
@@ -21,19 +21,19 @@ def display_about():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.image('/Users/ugurcanodabasi/Desktop/PycharmProjects/BAU_Miuul_Final_Project/Streamlit/Asli.jpeg', width=150)
+        st.image('Asli.jpeg', width=150)
         st.markdown('**Aslı Öztürk**')
         st.markdown('[LinkedIn Profili](https://www.linkedin.com/in/ozturk-asli/)')
         st.write("Aslı son 11 yılda 20'den fazla yazılım geliştirme projesinde , farklı kurumsal firmalarda Business Analyst olarak çalıştı.Veri bilimi ve makine öğrenmesinde kendini geliştirerek kariyerine Data Analyst/Data Scientist olarak devam etmek istiyor.")
 
     with col2:
-        st.image('/Users/ugurcanodabasi/Desktop/PycharmProjects/BAU_Miuul_Final_Project/Streamlit/Begum.jpeg', width=150)
+        st.image('Begum.jpeg', width=150)
         st.markdown('**Begüm Baybora**')
         st.markdown('[LinkedIn Profili](https://www.linkedin.com/in/begumbaybora/)')
         st.write("Begüm, supply chain alanında tecrübeli ve şimdi veri analizi ile yapay zeka konularına ilgi duyuyor. Bu alanlarda kendini geliştirerek, supply chain yönetiminde veri odaklı ve yapay zeka destekli çözümler geliştirmeye hevesli.")
 
     with col3:
-        st.image('/Users/ugurcanodabasi/Desktop/PycharmProjects/BAU_Miuul_Final_Project/Streamlit/Ugur.jpeg', width=150)
+        st.image('Ugur.jpeg', width=150)
         st.markdown('**Uğur Can Odabaşı**')
         st.markdown('[LinkedIn Profili](https://www.linkedin.com/in/ugurcanodabasi)')
         st.write("Uğur, çeşitli endüstrilerde teknoloji ve finans çözümleri sunarak teknik liderlik yapmaktadır. Şimdi ise veri bilimi ve makine öğrenmesi alanında kendini geliştirerek bu başarılarına yeni boyutlar eklemeyi hedefliyor.")
@@ -43,7 +43,7 @@ def home_page():
     st.title('Anasayfa')
 
     # Obezite oranlarını gösteren dünya haritası (yer tutucu olarak statik bir görsel)
-    st.image('/Users/ugurcanodabasi/Desktop/PycharmProjects/BAU_Miuul_Final_Project/Streamlit/Obesity_rate_(WHO,_2022).png', caption='Dünya Obezite Haritası')
+    st.image('/Obesity_rate_(WHO,_2022).png', caption='Dünya Obezite Haritası')
 
     # Obezitenin çağın hastalığı olduğunu anlatan metin
     st.write("""
@@ -80,14 +80,14 @@ def dynamic_graphs():
     """)
 
 # Fotoğrafı yüklemek için
-    image_path = "/Users/ugurcanodabasi/Desktop/PycharmProjects/BAU_Miuul_Final_Project/Streamlit/LearningCurve.png"  # 'image.jpg' yerine yüklemek istediğiniz dosyanın yolunu yazın.
+    image_path = "/LearningCurve.png"  # 'image.jpg' yerine yüklemek istediğiniz dosyanın yolunu yazın.
     image = st.image(image_path, caption='Learning Curve', use_column_width=True)
 
 # Fotoğraf altına bilgi eklemek için
     st.write("Bu eğitim eğrisi, modelinizin hem eğitim setindeki performansını hem de çapraz doğrulama setindeki performansını eğitim setinin büyüklüğüne göre gösteriyor.")
 
 # Fotoğrafı yüklemek için
-    image_path = "/Users/ugurcanodabasi/Desktop/PycharmProjects/BAU_Miuul_Final_Project/Streamlit/features.png"  # 'image.jpg' yerine yüklemek istediğiniz dosyanın yolunu yazın.
+    image_path = "features.png"  # 'image.jpg' yerine yüklemek istediğiniz dosyanın yolunu yazın.
     image = st.image(image_path, caption='Değişkenlerin Modele Etkisi', use_column_width=True)
 
 # Fotoğraf altına bilgi eklemek için
