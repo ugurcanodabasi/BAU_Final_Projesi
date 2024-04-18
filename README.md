@@ -108,7 +108,7 @@ Streamlit uygulamamız için gerekli kütüphaneleri import ederek işe başlad�
 
 Adım 2: Modeli ve Veri Kümesini Yüklenmesi
 
-Önceden eğitilmiş LightGBM modelinioblib'i kullanarakyükledik.
+Önceden eğitilmiş LightGBM modelini joblib kullanarak yükledik.
 
 
 
