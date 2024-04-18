@@ -167,7 +167,7 @@ def predict_obesity():
 # Streamlit uygulamasını yapılandır
 def main():
     st.sidebar.title('Navigasyon')
-    page = st.sidebar.radio('Sayfayı Seçin:', ['Hakkımızda', 'Anasayfa', 'Dinamik Grafikler', 'Obezite Tahmini'])
+    page = st.sidebar.radio('Sayfayı Seçin:', ['Hakkımızda', 'Anasayfa', 'Veri ve Modelimiz Hakkında', 'Obezite Tahmini'])
 
     if page == 'Hakkımızda':
         display_about()
