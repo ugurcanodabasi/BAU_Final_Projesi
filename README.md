@@ -5,7 +5,9 @@ Obezite, dünya genelinde milyonlarca insanı etkileyen ve hastalık, ölüm ve 
 STEP 1: VERİ ANALİZİ
 1.Genel Bakış
 -Veri setini yükledik ve temel bilgileri inceledik.
+
 -Veri kümesindeki değişkenler ve bunların açıklamaları araştırıldı.
+
 2.⁠ ⁠Sayısal ve Kategorik Değişkenlerin Belirlenmesi
 -Kategorik, sayısal ve kategorik ancak temel değişkenleri tanımlamak için bir fonksiyon oluşturuldu.
 -Veri setimizdeki kategorik, sayısal ve kategorik ancak temel değişkenleri tanımlamak için bu işlevi kullandık.
