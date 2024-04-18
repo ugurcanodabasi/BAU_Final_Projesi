@@ -43,7 +43,7 @@ def home_page():
     st.title('Anasayfa')
 
     # Obezite oranlarını gösteren dünya haritası (yer tutucu olarak statik bir görsel)
-    st.image('/Obesity_rate_(WHO,_2022).png', caption='Dünya Obezite Haritası')
+    st.image('Obesity_rate_(WHO,_2022).png', caption='Dünya Obezite Haritası')
 
     # Obezitenin çağın hastalığı olduğunu anlatan metin
     st.write("""
@@ -80,7 +80,7 @@ def dynamic_graphs():
     """)
 
 # Fotoğrafı yüklemek için
-    image_path = "/LearningCurve.png"  # 'image.jpg' yerine yüklemek istediğiniz dosyanın yolunu yazın.
+    image_path = "LearningCurve.png"  # 'image.jpg' yerine yüklemek istediğiniz dosyanın yolunu yazın.
     image = st.image(image_path, caption='Learning Curve', use_column_width=True)
 
 # Fotoğraf altına bilgi eklemek için
